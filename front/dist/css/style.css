@@ -1,0 +1,72 @@
+
+/* Header */
+
+.container-fluid{
+    background-color: #0D4784;
+}
+.fs-4{
+    color: #ffffff;
+}
+.nav-link{
+    color: #ffffff;
+}
+
+/* Hero */
+
+.hero {   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../imagenes/gym.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+
+
+/* ¿Por qué elegir FitPower? */
+
+.why-us {
+    background-color: #DDDEDF;
+}
+
+.divider {
+    width: 80px;
+    height: 3px;
+    background-color: #0D4784;
+    border: none;
+    opacity: 1;
+}
+
+.icon-circle {
+    background-color: #0D4784;
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* Footer */
+
+.container2{
+    background-color: #0D4784;
+}
+footer .text-body-secondary {
+    color: #ffffff !important;
+}
+.ftxt{
+    color: #ffffff;
+}
+
+
+
+
