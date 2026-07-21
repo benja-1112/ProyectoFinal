@@ -52,8 +52,91 @@
 }
 
 
+/* Conoce a nuestros entrenadores */
+
+.trainers {
+    background-color: #DDDEDF;
+}
+.trainer-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border: 4px solid #0D4784;
+}
 
 
+
+/* Conoce a nuestros entrenadores */
+
+.trainer-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border: 4px solid #0D4784;
+}
+
+.divider-sm {
+    width: 150px;
+    height: 2px;
+    background-color: #0D4784;
+    border: none;
+    opacity: 1;
+}
+
+
+/* Planes  */
+
+/* Planes  */
+
+.plans {
+    background-color: #DDDEDF;
+}
+
+.plans .card {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    height: 480px;
+}
+
+.plans .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.plans .card-body button {
+    margin-top: auto;
+}
+
+.plans .plan-popular {
+    border: 2px solid #0D4784;
+    position: relative;
+    height: 540px;
+}
+
+.popular-tag {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    padding: 6px 20px;
+    font-size: 0.85rem;
+}
+
+.plans .icon-circle {
+    font-size: 1.8rem;
+}
+
+/* Llamado a la acción */
+
+.cta-banner {
+    background-color: #1834E0;
+}
+
+.cta-icon {
+    font-size: 2.2rem;
+}
 
 /* Footer */
 
