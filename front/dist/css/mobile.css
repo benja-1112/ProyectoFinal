@@ -1,0 +1,62 @@
+/* MOVILES */
+@media (max-width: 767px) {
+
+    /* Header */
+    .fs-4 {
+        font-size: 1.2rem;
+    }
+
+    /* Hero */
+    .hero {
+        min-height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero .fs-5 {
+        font-size: 1rem;
+    }
+
+    /* ¿Por qué elegir FitPower? */
+    .why-us .col-md-4 {
+        flex-direction: column;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .why-us .icon-circle {
+        margin-bottom: 10px;
+    }
+
+    /* Entrenadores */
+    .trainer-img {
+        width: 160px;
+        height: 160px;
+    }
+
+    /* Planes */
+    .plans .card {
+        height: auto;
+        min-height: 420px;
+    }
+
+    .plans .plan-popular {
+        height: auto;
+        min-height: 460px;
+        margin-top: 20px;
+    }
+
+    /* Banner */
+    .cta-banner .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-banner h4 {
+        font-size: 1.2rem;
+    }
+}
